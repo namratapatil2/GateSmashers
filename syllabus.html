@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="jpg" href="logo.jpg">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Comaptible" content="IE=edge">
+	<title>Gate Smashers</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+
+<!-- Some Popular Subjects -->
+
+<div class="course">
+    <div class="head-container">
+        <div class="quote">
+
+            <p> 
+               
+                &nbsp;
+            </p>
+            <h1>Syllabus  of different branches on </h1>
+            <h2>Gate Smashers</h2>
+    </div>
+    
+    <div class="cbox">
+    <div class="det"><a href="http://www.gate.iitg.ac.in/Syllabi/CS_Computer-Science-and-Information-Technology.pdf"><img src="images/courses/computer.png">Computer Science and Engineering </a></div>
+    <div class="det"><a href="http://www.gate.iitg.ac.in/Syllabi/ME_Mechanical-Engineering.pdf"><img src="images/courses/data.png">Mechanical Engineering</a></div>
+    <div class="det"><a href="http://www.gate.iitg.ac.in/Syllabi/EE_Electrical-Engineering.pdf"><img src="images/courses/algo.png">Electrical Engineering</a></div>
+    </div>
+    <center><div class="cbox"> 
+        <div>
+	<div class="det"><a href="https://www.aceenggacademy.com/wp-content/uploads/2020/08/NA-VA-Common-for-All-Streams-1.pdf"><img src="images/courses/book.png">General Aptitude</a></div>
+</div>
+</div>
+
+
+<!-- Navigation Bar -->
+<header id="header">
+    <nav>
+        <div class="logo"><img src="logo.jpg" alt="logo"></div>
+        <div class="logo-name">GATE SMASHER'S</div>
+        <ul>
+            <li><a class="active" href="">Home</a></li>
+            <li><a href="#portfolio_section">Courses</a></li>
+            <li><a href="#team_section">Mock Test</a></li>
+            <li><a href="#services_section">Services</a></li>
+            <li><a href="#contactus_section">Contact</a></li>
+        </ul>
+        <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="images/icon/search.png" alt="search" onclick=slide()></div>
+        <a class="get-started" href="login.html">Get Started</a>
+        <img src="images/icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+    </nav>
+    
+    
+    </div>
+</header>
+
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+
+        <div class="logonf">GATE SMASHERS</div>
+            <div class="logo"></div>
+            <div class="social-media">
+                <a href="#"><img src="images/icon\fb.png"></a>
+                <a href="#"><img src="images/icon\insta.png"></a>
+                <a href="#"><img src="images/icon\tt.png"></a>
+                <a href="#"><img src="images/icon\ytube.png"></a>
+                <a href="#"><img src="images/icon\linkedin.png"></a>
+            </div><br><br>
+            <p class="rights-text">Copyright © 2021 Created By Gayatri Gajbhiye, Namrata Patil and Ruchika Jadhav All Rights Reserved.</p>
+            <br><p><img src="images/icon/location.png"> Priyadarshini Institute of Engineering and Technology<br>Nagpur, Maharashtra-440019</p><br>
+            <p><img src="images/icon/phone.png"> +91-9579642546<br><img src="images/icon/mail.png">&nbsp; smashersgate@gmail.com</p>
+        </div>
+        <div class="right-col">
+            <h1 style="color: #fff">Our Newsletter</h1>
+            <div class="border"></div><br>
+            <p>Enter Your Email to get our News and updates.</p>
+            <form class="newsletter-form">
+                <input class="txtb" type="email" placeholder="Enter Your Email">
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
